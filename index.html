@@ -1,30 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <style>
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        background: #f8fafc;
-        color: #0f172a;
-        font-family: system-ui, sans-serif;
-      }
-
-      h1 {
-        margin: 1rem;
-        font-size: clamp(2rem, 8vw, 4rem);
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>Hello World</h1>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charlie Anne Carlson · Theoretical Computer Science</title>
+  <meta name="description" content="Charlie Anne Carlson is an Assistant Professor at the University at Buffalo working in theoretical computer science, graph theory, randomized algorithms, and statistical physics.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Charlie Anne Carlson · Theoretical Computer Science">
+  <meta property="og:description" content="Research, publications, teaching, and talks. Assistant Professor of Computer Science and Engineering at the University at Buffalo.">
+  <meta property="og:image" content="https://charlieintheory.github.io/assets/site-icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Charlie Anne Carlson · Theoretical Computer Science">
+  <meta name="twitter:description" content="Research, publications, teaching, and talks from Charlie Anne Carlson at the University at Buffalo.">
+  <meta name="twitter:image" content="https://charlieintheory.github.io/assets/site-icon.png">
+  <meta name="theme-color" content="#694575">
+  <link rel="icon" href="assets/site-icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#about">Charlie in Theory<span aria-hidden="true">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#talks">Talks &amp; workshops</a>
+        <a href="#service">Service</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section id="about" class="introduction" aria-labelledby="name">
+      <div class="intro-copy">
+        <p class="eyebrow">University at Buffalo</p>
+        <h1 id="name">Charlie Anne Carlson</h1>
+        <p class="role">Assistant Professor <span class="pronouns">· she/her</span></p>
+        <p>I am an Assistant Professor in the <a href="https://engineering.buffalo.edu/computer-science-engineering.html">Department of Computer Science and Engineering</a> at the <a href="https://www.buffalo.edu/">University at Buffalo</a>. I work in theoretical computer science and discrete mathematics.</p>
+        <p>Previously, I was a postdoctoral researcher at <a href="https://www.slmath.org/">SLMath</a> and at UC Santa Barbara, where I worked with <a href="https://sites.cs.ucsb.edu/~vigoda/">Eric Vigoda</a>. I received my Ph.D. from the University of Colorado Boulder in 2023, advised by <a href="https://people.ucsc.edu/~akolla/">Alexandra Kolla</a>, and my M.S. from the University of Illinois Urbana-Champaign.</p>
+        <ul class="profile-links" aria-label="Contact and academic profiles">
+          <li><a href="mailto:cc387@buffalo.edu">cc387@buffalo.edu</a></li>
+          <li><a href="https://drive.google.com/file/d/1k5MDO3igPP8VRvJqgvNub7EKLpI7suhY/view">CV <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://scholar.google.com/citations?user=cgMKyugAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
+      <figure class="portrait">
+        <img src="assets/charlie-carlson.jpg" alt="Charlie Anne Carlson smiling outdoors beside a creek." width="1280" height="1895" fetchpriority="high">
+        <figcaption>Theoretical computer science<br>Buffalo, New York</figcaption>
+      </figure>
+    </section>
+    <aside class="student-note" aria-labelledby="students-heading">
+      <h2 id="students-heading">Interested in a PhD?</h2>
+      <p>I’m looking for students interested in many different areas. If you are interested in working with me, please <a href="mailto:cc387@buffalo.edu">send me an email</a>.</p>
+    </aside>
+    <section id="research" class="content-section" aria-labelledby="research-heading">
+      <div class="section-heading"><p class="eyebrow">Questions, methods, and ideas</p><h2 id="research-heading">Research</h2></div>
+      <div class="section-body">
+        <p>My research centers on approximate counting, spectral graph theory, and combinatorial optimization. I am also interested in Markov chains, randomized and approximation algorithms, extremal graph theory, smoothed analysis, and statistical physics.</p>
+        <p>If you frame a problem as a graph coloring challenge, I’m almost guaranteed to be captivated.</p>
+        <h3>Preprints</h3>
+        <ol class="paper-list">
+          <li><h4><a href="https://arxiv.org/abs/2309.10957">Approximation Algorithms for Quantum Max-d-Cut</a></h4><p class="authors"><strong>Charlie Carlson</strong>, Zackary Jorquera, Alexandra Kolla, Steven Kordonowy, and Stuart Wayland</p><p class="paper-meta">Preprint <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2309.10957">arXiv</a></p></li>
+          <li><h4><a href="https://arxiv.org/abs/2304.08420">A quantum advantage over classical for local max cut</a></h4><p class="authors"><strong>Charlie Carlson</strong>, Zackary Jorquera, Alexandra Kolla, and Steven Kordonowy</p><p class="paper-meta">Preprint <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2304.08420">arXiv</a></p></li>
+        </ol>
+        <h3>Publications</h3>
+        <!-- PUBLICATIONS_START -->
+<ol class="paper-list">
+<li>
+<h4><a href="https://arxiv.org/abs/2510.21058">Hardness of Approximation for Shortest Path with Vector Costs</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Yury Makarychev, and Ron Mosenzon</p>
+<p class="paper-meta"><span class="venue">SODA 2026</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2510.21058">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2510.21058">PDF</a> <span aria-hidden="true">·</span> <a href="https://doi.org/10.1137/1.9781611978971.143">Proceedings</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/2407.04870">Flip Dynamics for Sampling Colorings: Improving (11/6 − ε) Using A Simple Metric</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong> and Eric Vigoda</p>
+<p class="paper-meta"><span class="venue">SODA 2025</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2407.04870">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2407.04870">PDF</a> <span aria-hidden="true">·</span> <a href="https://doi.org/10.1137/1.9781611978322.71">Proceedings</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/2407.04576">Optimal Mixing for Randomly Sampling Edge Colorings on Trees Down to the Max Degree</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Xiaoyu Chen, Weiming Feng, and Eric Vigoda</p>
+<p class="paper-meta"><span class="venue">SODA 2025</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2407.04576">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2407.04576">PDF</a> <span aria-hidden="true">·</span> <a href="https://doi.org/10.1137/1.9781611978322.184">Proceedings</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/2204.01923">Algorithms for the Ferromagnetic Potts Model on Expanders</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Ewan Davies, Nicolas Fraiman, Alexandra Kolla, Aditya Potukuchi, and Corrine Yap</p>
+<p class="paper-meta"><span class="venue">Combinatorics, Probability and Computing 2024 · FOCS 2022</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2204.01923">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2204.01923">PDF</a> <span aria-hidden="true">·</span> <a href="https://doi.org/10.1017/S0963548324000087">Journal</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/2307.09533">A Spectral Approach to Approximately Counting Independent Sets in Dense Bipartite Graphs</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Ewan Davies, Alexandra Kolla, and Aditya Potukuchi</p>
+<p class="paper-meta"><span class="venue">ICALP 2024</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2307.09533">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2307.09533">PDF</a> <span aria-hidden="true">·</span> <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2024.35">Proceedings</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/2003.01154">Efficient algorithms for the Potts model on small-set expanders</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Ewan Davies, and Alexandra Kolla</p>
+<p class="paper-meta"><span class="venue">Chicago Journal of Theoretical Computer Science 2024</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2003.01154">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2003.01154">PDF</a> <span aria-hidden="true">·</span> <a href="http://cjtcs.cs.uchicago.edu/articles/2024/1/contents.html">Journal</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/2309.07859">Improved Distributed Algorithms for Random Colorings</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Daniel Frishberg, and Eric Vigoda</p>
+<p class="paper-meta"><span class="venue">OPODIS 2023</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2309.07859">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2309.07859">PDF</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/2308.08373">Approximation Algorithms for Norm Multiway Cut</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Jafar Jafarov, Konstantin Makarychev, Yury Makarychev, and Liren Shan</p>
+<p class="paper-meta"><span class="venue">ESA 2023</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2308.08373">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2308.08373">PDF</a> <span aria-hidden="true">·</span> <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESA.2023.32">Proceedings</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/2111.03033">Computational Thresholds for the Fixed-Magnetization Ising Model</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Ewan Davies, Alexandra Kolla, and Will Perkins</p>
+<p class="paper-meta"><span class="venue">STOC 2022</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2111.03033">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/2111.03033">PDF</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/1807.05665">Improving the Smoothed Complexity of FLIP for Max Cut Problems</a></h4>
+<p class="authors">Ali Bibak, <strong>Charlie Carlson</strong>, and Karthekeyan Chandrasekaran</p>
+<p class="paper-meta"><span class="venue">ACM Transactions on Algorithms 2021 · SODA 2019</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/1807.05665">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/1807.05665">PDF</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/1810.10044">Lower Bounds for Max-Cut in H-Free Graphs via Semidefinite Programming</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Alexandra Kolla, Ray Li, Nitya Mani, Benny Sudakov, and Luca Trevisan</p>
+<p class="paper-meta"><span class="venue">SIAM Journal on Discrete Mathematics 2021 · LATIN 2020</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/1810.10044">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/1810.10044">PDF</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/1611.03624">Spectral Aspects of Symmetric Matrix Signings</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Karthekeyan Chandrasekaran, Hsien-Chih Chang, Naonori Kakimura, and Alexandra Kolla</p>
+<p class="paper-meta"><span class="venue">Discrete Optimization 2020 · MFCS 2019</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/1611.03624">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/1611.03624">PDF</a></p>
+</li>
+<li>
+<h4><a href="https://arxiv.org/abs/1712.10261">Optimal Lower Bounds for Sketching Graph Cuts</a></h4>
+<p class="authors"><strong>Charlie Carlson</strong>, Alexandra Kolla, Nikhil Srivastava, and Luca Trevisan</p>
+<p class="paper-meta"><span class="venue">SODA 2019</span> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/1712.10261">arXiv</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/pdf/1712.10261">PDF</a></p>
+</li>
+<li>
+<h4><a href="https://www.cs.uaf.edu/~olawlor/papers/2013/cyberalaska/lawlor_cyberalaska_2013.pdf">Search-and-Rescue Robots for Integrated Research and Education in Cyber-Physical Systems</a></h4>
+<p class="authors">Orion Lawlor, Mike Moss, Steven Kibler, <strong>Charlie Carlson</strong>, Shaun Bond, and Seta Bogosyan</p>
+<p class="paper-meta"><span class="venue">ICELIE 2013</span> <span aria-hidden="true">·</span> <a href="https://www.cs.uaf.edu/~olawlor/papers/2013/cyberalaska/lawlor_cyberalaska_2013.pdf">PDF</a></p>
+</li>
+</ol>
+        <!-- PUBLICATIONS_END -->
+      </div>
+    </section>
+    <section id="teaching" class="content-section" aria-labelledby="teaching-heading">
+      <div class="section-heading"><p class="eyebrow">University at Buffalo</p><h2 id="teaching-heading">Teaching</h2></div>
+      <div class="section-body course-list">
+        <div class="course"><p class="date">Fall 2026</p><div><h3>CSE 331 · Introduction to Algorithms</h3><p>University at Buffalo</p></div></div>
+        <div class="course"><p class="date">Fall 2025</p><div><h3>CSE 331 · Introduction to Algorithms</h3><p>University at Buffalo</p></div></div>
+      </div>
+    </section>
+    <section id="talks" class="content-section" aria-labelledby="talks-heading">
+      <div class="section-heading"><p class="eyebrow">Sharing ideas</p><h2 id="talks-heading">Talks &amp;<br class="desktop-break"> workshops</h2></div>
+      <div class="section-body">
+        <!-- TALKS_START -->
+<h3 class="subheading-first">Selected talks</h3>
+<ol class="event-list">
+<li><p class="date">September 1, 2025</p><div><h3><a href="https://adyn.informatik.rwth-aachen.de/index.php/events/adyn-seminar">Sampling Colorings with Markov Chains</a></h3><p>ADYN Seminar · Algorithms, Dynamics, and Information Flow in Networks</p></div></li>
+<li><p class="date">March 3, 2025</p><div><h3><a href="https://cse.umn.edu/cs/events/cse-colloquium-sampling-colorings-markov-chains">Sampling Colorings with Markov Chains</a></h3><p>University of Minnesota · CS&amp;E Colloquium</p></div></li>
+<li><p class="date">January 24, 2025</p><div><h3><a href="https://www.slmath.org/workshops/1085/schedules/36815">Sampling Colorings with Flip Dynamics</a></h3><p>SLMath · Connections Workshop: Probability and Statistics of Discrete Structures</p><a class="resource-link" href="https://vimeo.com/1050835672">Watch the talk <span aria-hidden="true">↗</span></a></div></li>
+<li><p class="date">January 10, 2025</p><div><h3><a href="https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program_ss48.html">Flip Dynamics for Sampling Colorings: Improving (11/6 − ε) Using A Simple Metric</a></h3><p>Joint Mathematics Meetings · Seattle, Washington</p></div></li>
+<li><p class="date">November 11, 2024</p><div><h3><a href="https://calendars.illinois.edu/detail/2654?eventId=33506184">Sampling Colorings with Markov Chains</a></h3><p>University of Illinois Urbana-Champaign · Theory Seminar</p></div></li>
+<li><p class="date">October 8, 2024</p><div><h3><a href="https://simons.berkeley.edu/talks/charlie-carlson-ucsb-2024-10-08">Lower bounds for Max-Cut in H-free graphs via semidefinite programming</a></h3><p>LucaFest@Simons · Simons Institute, Berkeley</p></div></li>
+</ol>
+<h3>Workshops &amp; research visits</h3>
+<ol class="event-list">
+<li><p class="date">June 2–6, 2025</p><div><h3><a href="https://www.ewandavies.org/events/rmsw2025.html">Rocky Mountain Summer Workshop on Algorithms, Probability and Combinatorics</a></h3><p>Participant · CSU Mountain Campus, Colorado</p></div></li>
+<li><p class="date">Spring 2025</p><div><h3><a href="https://www.slmath.org/programs/348">Probability and Statistics of Discrete Structures</a></h3><p>Postdoctoral researcher · SLMath, Berkeley</p></div></li>
+<li><p class="date">October 8–9, 2024</p><div><h3><a href="https://simons.berkeley.edu/workshops/lucafestsimons">LucaFest@Simons</a></h3><p>Speaker · Simons Institute, Berkeley</p></div></li>
+<li><p class="date">August 11–16, 2024</p><div><h3><a href="https://www.birs.ca/events/2024/5-day-workshops/24w5169">Frontiers of Statistical Mechanics and Theoretical Computer Science</a></h3><p>Speaker · BIRS, Banff, Canada. Talk: “Sampling colorings (with Markov Chains).”</p><a class="resource-link" href="https://www.birs.ca/workshops/2024/24w5169/report24w5169.pdf">Workshop report <span aria-hidden="true">↗</span></a></div></li>
+<li><p class="date">November 27–December 2, 2022</p><div><h3><a href="https://www.dagstuhl.de/22482">Counting and Sampling: Algorithms and Complexity</a></h3><p>Participant · Schloss Dagstuhl, Germany</p></div></li>
+<li><p class="date">August 8–12, 2022</p><div><h3><a href="https://sites.cs.ucsb.edu/~vigoda/School/Info.html">New tools for optimal mixing of Markov chains: Spectral independence and entropy decay</a></h3><p>Participant and speaker · UC Santa Barbara. Talk: “Fixed-Magnetization Ising Model” (August 12).</p><a class="resource-link" href="https://sites.cs.ucsb.edu/~vigoda/School/program.html">Program <span aria-hidden="true">↗</span></a></div></li>
+<li><p class="date">Spring 2019</p><div><h3><a href="https://simons.berkeley.edu/programs/geometry-polynomials">Geometry of Polynomials</a></h3><p>Visiting graduate student · Simons Institute, Berkeley</p></div></li>
+<li><p class="date">Fall 2017</p><div><h3><a href="https://simons.berkeley.edu/programs/bridging-continuous-discrete-optimization">Bridging Continuous and Discrete Optimization</a></h3><p>Visiting graduate student · Simons Institute, Berkeley</p></div></li>
+</ol>
+        <!-- TALKS_END -->
+      </div>
+    </section>
+    <section id="service" class="content-section" aria-labelledby="service-heading">
+      <div class="section-heading"><p class="eyebrow">Academic community</p><h2 id="service-heading">Service</h2></div>
+      <div class="section-body"><p>I have served as a reviewer for FOCS, STOC, SODA, ICALP, and ITCS.</p></div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>Charlie Anne Carlson</p><a href="mailto:cc387@buffalo.edu">cc387@buffalo.edu</a><a class="back-top" href="#about">Back to top ↑</a></footer>
+</body>
 </html>
