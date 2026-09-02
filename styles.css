@@ -23,20 +23,17 @@ strong { font-weight: 600; }
 .site-header { border-top: 4px solid var(--accent); border-bottom: 1px solid var(--line); background: var(--paper); position: sticky; top: 0; z-index: 2; }
 .header-inner { max-width: 1120px; padding: 19px 36px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
 .wordmark { font-size: 21px; color: var(--ink); text-decoration: none; white-space: nowrap; }
-.wordmark span { color: var(--accent); }
 nav { display: flex; flex-wrap: wrap; gap: 1.7rem; font: 13px/1.5 var(--sans); }
 nav a { color: var(--muted); text-decoration: none; }
 nav a:hover { text-decoration: underline; }
 main, .site-footer { max-width: 1120px; margin: auto; padding: 0 36px; }
 .introduction { display: grid; grid-template-columns: minmax(0,1fr) 254px; gap: 60px; padding: 60px 0 36px; align-items: start; }
-.eyebrow { margin: 0 0 .6rem; font: 11px/1.5 var(--sans); letter-spacing: .13em; text-transform: uppercase; color: var(--muted); }
 h1 { font-size: clamp(2.2rem, 4vw, 3.05rem); line-height: 1.14; letter-spacing: -.045em; margin: 0 0 .65rem; }
 .role { font: 14px/1.6 var(--sans); color: var(--accent); margin-bottom: 1.7rem; }
 .pronouns { color: var(--muted); }
-.intro-copy > p:not(.eyebrow):not(.role) { font-size: 16px; line-height: 1.7; }
+.intro-copy > p:not(.role) { font-size: 16px; line-height: 1.7; }
 .portrait { margin: 0; padding-top: 5px; }
 .portrait img { display: block; width: 100%; height: 320px; object-fit: cover; object-position: center 50%; border-radius: 3px; }
-.portrait figcaption { margin-top: 12px; font: 11px/1.65 var(--sans); color: var(--muted); }
 .profile-links { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; list-style: none; padding: 0; margin: 1.4rem 0 0; font: 13px/1.5 var(--sans); }
 .profile-links a { font-weight: 500; }
 .student-note { background: var(--tint); border-left: 3px solid var(--accent); padding: 20px 25px; margin: 0 0 12px; display: grid; grid-template-columns: 210px minmax(0,1fr); gap: 20px; align-items: start; }
@@ -44,7 +41,6 @@ h1 { font-size: clamp(2.2rem, 4vw, 3.05rem); line-height: 1.14; letter-spacing: 
 .student-note p { margin: 0; font-size: 15px; }
 .content-section { border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 210px minmax(0,1fr); gap: 35px; padding: 45px 0; }
 .section-heading h2 { color: var(--accent); font-size: 29px; line-height: 1.2; letter-spacing: -.025em; }
-.section-heading .eyebrow { font-size: 10px; letter-spacing: .09em; }
 .section-body > p { font-size: 16px; }
 .section-body > h3 { font-size: 22px; margin: 2rem 0 1.25rem; }
 .paper-list { list-style: none; margin: 0; padding: 0; }
@@ -86,7 +82,6 @@ h1 { font-size: clamp(2.2rem, 4vw, 3.05rem); line-height: 1.14; letter-spacing: 
   .introduction { display: flex; flex-direction: column; padding-top: 35px; gap: 22px; }
   .portrait { display: flex; align-items: flex-end; gap: 16px; }
   .portrait img { width: 132px; height: 164px; }
-  .portrait figcaption { margin-bottom: 0; }
   h1 { font-size: 2.5rem; }
   .role { margin-bottom: 1.3rem; }
   .student-note { display: block; padding: 18px 20px; }

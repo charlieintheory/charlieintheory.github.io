@@ -6,9 +6,12 @@ not part of the built website.
 ## Base content and user-provided details
 
 - Biography, portrait, scholarly profile and CV: https://www.charlieintheory.com/
+- The arXiv quick link is the verified exact-name author search, not a claimed
+  arXiv author identifier: https://arxiv.org/search/?query=Carlson%2C+Charlie&searchtype=author&abstracts=show&order=-announced_date_first&size=50
+  Individual paper links are retained because the search omits some older work.
 - Original 12 publications and 2 preprints: https://www.charlieintheory.com/research
 - The user supplied CSE 331 (Introduction to Algorithms) teaching in Fall 2025 and
-  Fall 2026 at the University at Buffalo, the broad PhD-student invitation, and
+  Fall 2026 at the University at Buffalo, the PhD-student invitation, and
   reviewing for FOCS, STOC, SODA, ICALP and ITCS.
 - The user confirmed attendance at BIRS 24w5169, RMSW 2025, the UCSB August 2022
   mixing workshop, and LucaFest@Simons.
@@ -72,3 +75,13 @@ not part of the built website.
   https://simons.berkeley.edu/programs/bridging-continuous-discrete-optimization
 
 SLMath and the Simons Institute are presented as separate institutions.
+
+## Wording and institution naming
+
+- The user's final PhD invitation is “If you are interested in working with me,
+  send me an email.” The final graph-coloring sentence is also supplied by the user.
+- UB identifies **University at Buffalo** as its formal academic name:
+  https://www.buffalo.edu/brand/identity/Naming/our-name.html
+- Prospective-student wording was compared with the supplied academic references.
+  Ewan Davies uses a direct invitation to get in touch:
+  https://www.ewandavies.org/
