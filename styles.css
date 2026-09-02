@@ -44,7 +44,7 @@ h1 { font-size: clamp(2.2rem, 4vw, 3.05rem); line-height: 1.14; letter-spacing: 
 .pronouns { color: var(--muted); }
 .intro-copy > p:not(.role) { font-size: 16px; line-height: 1.7; }
 .portrait { margin: 0; padding-top: 5px; }
-.portrait img { display: block; width: 100%; height: 320px; object-fit: cover; object-position: center 50%; border-radius: 3px; }
+.portrait img { display: block; width: 100%; height: 320px; object-fit: cover; object-position: center 50%; border-radius: 6px; border: 1px solid var(--line); }
 .profile-links { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; list-style: none; padding: 0; margin: 1.4rem 0 0; font: 13px/1.5 var(--sans); }
 .profile-links a { font-weight: 500; }
 .student-note { background: var(--tint); border-left: 3px solid var(--accent); padding: 20px 25px; margin: 0 0 12px; display: grid; grid-template-columns: 210px minmax(0,1fr); gap: 20px; align-items: start; }
@@ -92,8 +92,8 @@ h1 { font-size: clamp(2.2rem, 4vw, 3.05rem); line-height: 1.14; letter-spacing: 
   main, .site-footer { padding-left: 22px; padding-right: 22px; }
   html { scroll-padding-top: 8rem; }
   .introduction { display: flex; flex-direction: column; padding-top: 35px; gap: 22px; }
-  .portrait { display: flex; align-items: flex-end; gap: 16px; }
-  .portrait img { width: 132px; height: 164px; }
+  .portrait { display: flex; align-items: flex-end; gap: 16px; order: -1; }
+  .portrait img { width: 160px; height: 200px; }
   h1 { font-size: 2.5rem; }
   .role { margin-bottom: 1.3rem; }
   .student-note { display: block; padding: 18px 20px; }
