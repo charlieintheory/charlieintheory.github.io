@@ -1,1 +1,14 @@
-Hello World
+Charlie Anne Carlson — academic website draft
+
+This is a plain HTML and CSS website. No JavaScript framework or dependency
+installation is needed. Edit index.html for content and styles.css for appearance.
+The original portrait and site icon are stored in assets/.
+
+Preview: python3 -m http.server 4173 --bind 127.0.0.1
+Build static output: python3 build.py
+
+GitHub Pages can serve the files directly from the repository root. The separate
+Sites configuration provides a private draft preview. No custom-domain or DNS
+configuration is changed by this draft.
+
+Publication and event research is documented in CONTENT_SOURCES.md.
